@@ -1,0 +1,4 @@
+set recolor "true"
+set recolor-reverse-video "true"
+set recolor-darkcolor \#f5f6f7
+
