@@ -190,9 +190,8 @@ bar {
         status_command i3status
 	font pango:monospace 10
 	colors {
-	active_workspace #333333 #f59042 #ffffff
-	focused_workspace  #4c7899 #f59042 #ffffff
-
+	active_workspace #333333 #f59042 #000000
+	focused_workspace #333333 #f59042 #000000
 	}
 }
 
@@ -201,7 +200,7 @@ gaps inner 20
 gaps outer 5
 
 
-client.focused #fdfd87 #fcda77 #2e9ef4 #fdfd97
+client.focused #fdfd87 #fcda77 #00000 #fdfd97
 
 exec_always --no-startup-id /usr/local/bin/feh -x --scale-bg '/home/lauritz/Downloads/pinkspacetrees.jpg'
 
