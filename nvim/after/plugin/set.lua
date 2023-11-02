@@ -16,4 +16,6 @@ vim.opt.incsearch = true
 
 vim.opt.termguicolors = true
 
+-- must install xclip to work
+vim.api.nvim_set_option("clipboard","unnamedplus")
 
