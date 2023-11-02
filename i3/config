@@ -203,5 +203,7 @@ gaps outer 5
 
 client.focused #fdfd87 #fcda77 #2e9ef4 #fdfd97
 
-#default_border pixel 5
-#default_floating_border pixel 2
+exec_always --no-startup-id /usr/local/bin/feh -x --scale-bg '/home/lauritz/Downloads/pinkspacetrees.jpg'
+
+default_border pixel 1
+default_floating_border pixel 1
