@@ -51,8 +51,8 @@ bindsym XF86AudioPrev exec playerctl previous
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
-
+#bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec st
 # kill focused window
 bindsym $mod+Shift+q kill
 
@@ -189,13 +189,14 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
-	font pango:monospace 10
+	#font pango:monospace 10
+    #font BigBlueTerm437NerdFontMono-Regular 10
+    font pango:BigBlueTerm437 Nerd Font Mono 10
 	colors {
 	active_workspace #333333 #f59042 #000000
 	focused_workspace #333333 #f59042 #000000
 	}
 }
-
 
 gaps inner 20
 gaps outer 5
