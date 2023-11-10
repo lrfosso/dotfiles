@@ -19,4 +19,4 @@ vim.opt.termguicolors = true
 -- must install xclip to work
 vim.api.nvim_set_option("clipboard","unnamedplus")
 
-vim.opt.showmode = false
+--vim.opt.showmode = false

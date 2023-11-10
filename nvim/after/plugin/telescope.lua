@@ -6,4 +6,4 @@ vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
 --
 --end)
 vim.keymap.set('n', '<leader>gf', builtin.live_grep, {})
---vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
+vim.keymap.set('n', '<leader>bf', builtin.buffers, {})
